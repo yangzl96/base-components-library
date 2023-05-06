@@ -1,13 +1,18 @@
 import Button from "./button";
 
-Button.install = function (app) {
-  app.component(Button.name, Button);
-};
+Button.install = app => {};
 
-export default Button;
+export { Button as default };
 
-// export default {
-//   install(app) {
-//     app.component(button.name, button);
-//   },
+// Button.install = function (app) {
+//   app.component(Button.name, Button);
 // };
+
+// export default Button;
+// const Buttonsss =  {
+//   install(app) {
+//     app.component(Button.name, Button);
+//   },
+// }
+
+// export default Buttonsss
