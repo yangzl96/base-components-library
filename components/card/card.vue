@@ -2,14 +2,11 @@
   <div>this is a card components</div>
 </template>
 
-<script setup>
+<script>
 import { defineComponent } from 'vue'
-defineComponent({
+export default defineComponent({
   name: 'JinkeCard'
 })
-// defineOptions({
-//   name: "JinkeTestA",
-// });
 </script>
 
 <!-- <style lang="less">
